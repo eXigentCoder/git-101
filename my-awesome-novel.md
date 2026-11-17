@@ -1,3 +1,3 @@
 # My Awesome Novel
 
-Actually, this is going to make me billions!!!
+This novel is going to make me money
