@@ -1,0 +1,62 @@
+[
+  {
+    "term": "Artificial intelligence (AI)",
+    "definition": "The broad field of building computer systems that perform tasks we usually associate with human intelligence, such as understanding language or recognising images."
+  },
+  {
+    "term": "Bias",
+    "definition": "Systematic unfairness in a model's output, usually inherited from gaps or skews in its training data."
+  },
+  {
+    "term": "Context window",
+    "definition": "The maximum amount of text (measured in tokens) a model can take into account at once, including your prompt and its reply."
+  },
+  {
+    "term": "Deep learning",
+    "definition": "Machine learning using neural networks with many layers. It powers most modern image, speech and language AI."
+  },
+  {
+    "term": "Fine-tuning",
+    "definition": "Extra training of an existing model on a smaller, focused dataset so it gets better at a particular task or style."
+  },
+  {
+    "term": "Generative AI",
+    "definition": "AI that creates new content such as text, images, audio or code, rather than only classifying existing content."
+  },
+  {
+    "term": "Hallucination",
+    "definition": "When a model produces an answer that sounds confident and plausible but is false or made up."
+  },
+  {
+    "term": "Large language model (LLM)",
+    "definition": "A very large neural network trained on huge amounts of text to predict the next token. Chat assistants are built on LLMs."
+  },
+  {
+    "term": "Machine learning (ML)",
+    "definition": "An approach to AI where a program learns patterns from example data instead of following hand-written rules."
+  },
+  {
+    "term": "Model",
+    "definition": "The trained result of a machine learning process: a file of learned numbers plus the code that uses them to make predictions."
+  },
+  {
+    "term": "Neural network",
+    "definition": "A model made of layers of simple connected maths units, loosely inspired by neurons in the brain."
+  },
+  {
+    "term": "Parameters",
+    "definition": "The internal numbers a model adjusts during training. Large language models have billions of them."
+  },
+  {
+    "term": "Prompt",
+    "definition": "The instructions or question you give a generative AI model."
+  },
+  {
+    "term": "Token",
+    "definition": "A chunk of text, such as a word, part of a word or a punctuation mark, that a language model reads and writes."
+  },
+  {
+    "term": "Training data",
+    "definition": "The examples a model learns from. Its quality and coverage strongly shape what the model can do and how it fails."
+  }
+]

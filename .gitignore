@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Local-only files (see lessons/07-stretch.md)
+*.local
+*.local.*
+.env

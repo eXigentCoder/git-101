@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 101 – a friendly primer</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">AI 101</a>
+      <a href="index.html">Primer</a>
+      <a href="glossary.html">Glossary</a>
+    </nav>
+    <div class="hero">
+      <h1>AI 101: a friendly primer</h1>
+      <p class="tagline">What artificial intelligence is, how tools like ChatGPT work, and how to use them sensibly.</p>
+    </div>
+  </header>
+
+  <main class="content">
+    <section id="what-is-ai" class="card">
+      <h2>What is AI?</h2>
+      <p>
+        <strong>Artificial intelligence (AI)</strong> is the broad field of building computer systems that do
+        things we would normally say need human intelligence: recognising images, understanding language,
+        making recommendations or playing games.
+      </p>
+      <p>
+        Most of the AI you meet today is <em>narrow</em>: it is very good at one kind of task and has no
+        general understanding of the world the way people do.
+      </p>
+    </section>
+
+    <section id="machine-learning" class="card">
+      <h2>Machine learning</h2>
+      <p>
+        Traditional software follows rules a programmer wrote by hand. <strong>Machine learning (ML)</strong>
+        flips that around: instead of writing the rules, we show a program lots of examples and it learns the
+        patterns itself. A spam filter trained on thousands of labelled emails is a classic example.
+      </p>
+      <p>
+        <strong>Deep learning</strong> is a type of machine learning that uses large <em>neural networks</em>,
+        layers of simple maths units loosely inspired by neurons, which are good at messy data like images,
+        audio and text.
+      </p>
+    </section>
+
+    <section id="generative-ai" class="card">
+      <h2>Generative AI and large language models</h2>
+      <p>
+        <strong>Generative AI</strong> creates new content (text, images, code, audio) rather than just
+        classifying existing content. <strong>Large language models (LLMs)</strong>, the engines behind chat
+        assistants, are generative models trained on huge amounts of text.
+      </p>
+    </section>
+
+    <section id="how-llms-work" class="card">
+      <h2>How an LLM works (the short version)</h2>
+      <ol>
+        <li>
+          <strong>Tokens.</strong> Text is split into <em>tokens</em>: whole words, parts of words or
+          punctuation. The model only ever sees numbers representing these tokens.
+        </li>
+        <li>
+          <strong>Training.</strong> The model reads an enormous amount of text and repeatedly tries to predict
+          the next token. Each time it is wrong, its billions of internal numbers (<em>parameters</em>) are
+          nudged slightly so it does better next time.
+        </li>
+        <li>
+          <strong>Prediction.</strong> When you send a prompt, the model predicts a likely next token, adds it to
+          the text, and repeats, one token at a time, until the answer is complete.
+        </li>
+        <li>
+          <strong>Tuning.</strong> Extra training on example conversations and human feedback teaches the model
+          to follow instructions and be helpful, rather than just continue text.
+        </li>
+      </ol>
+      <p class="note">
+        An LLM doesn't look facts up in a database. It generates text that is statistically likely given
+        everything it learned, which is both why it's so fluent and why it can be confidently wrong.
+      </p>
+    </section>
+
+    <section id="limitations" class="card">
+      <h2>Limitations to keep in mind</h2>
+      <ul>
+        <li><strong>Hallucination:</strong> it can produce plausible-sounding answers that are simply false.</li>
+        <li><strong>Bias:</strong> it can repeat the biases and gaps in its training data.</li>
+        <li><strong>Knowledge cut-off:</strong> it may not know about recent events unless given search or documents.</li>
+        <li><strong>Context limits:</strong> it can only take a limited amount of text into account at once.</li>
+      </ul>
+    </section>
+
+    <section id="responsible-use" class="card">
+      <h2>Using AI responsibly</h2>
+      <ul>
+        <li>Check important facts, numbers and code before you rely on them.</li>
+        <li>Don't paste confidential, client or personal data into tools your company hasn't approved.</li>
+        <li>Be open about when AI helped produce your work.</li>
+        <li>Keep a human in the loop for decisions that affect people.</li>
+      </ul>
+    </section>
+
+    <section id="timeline" class="card">
+      <h2>A short history of AI</h2>
+      <ol class="timeline" data-timeline>
+        <li class="loading">Loading timeline…</li>
+      </ol>
+    </section>
+
+    <section id="learn-more" class="card">
+      <h2>Learn more</h2>
+      <p>New to the jargon? Have a look at the <a href="glossary.html">glossary</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for the git-101 training course. Every page here is meant to be changed, broken and fixed.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

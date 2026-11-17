@@ -1,0 +1,5 @@
+# Store text files with LF line endings in the repo so Mac and Windows users
+# don't get noisy whole-file diffs or fake conflicts.
+* text=auto eol=lf
+*.png binary
+*.jpg binary

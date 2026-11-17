@@ -1,0 +1,37 @@
+[
+  {
+    "year": 1950,
+    "title": "Turing asks \"Can machines think?\"",
+    "description": "Alan Turing's paper 'Computing Machinery and Intelligence' proposes the imitation game, later known as the Turing test."
+  },
+  {
+    "year": 1956,
+    "title": "The term \"artificial intelligence\" is born",
+    "description": "The Dartmouth summer workshop brings researchers together and gives the field its name."
+  },
+  {
+    "year": 1997,
+    "title": "Deep Blue beats Kasparov",
+    "description": "IBM's chess computer defeats the reigning world champion in a six-game match."
+  },
+  {
+    "year": 2012,
+    "title": "Deep learning takes off",
+    "description": "The AlexNet neural network wins the ImageNet image-recognition competition by a wide margin, kick-starting the deep learning boom."
+  },
+  {
+    "year": 2016,
+    "title": "AlphaGo wins at Go",
+    "description": "DeepMind's AlphaGo beats Lee Sedol, one of the world's best Go players, a feat many expected to be a decade away."
+  },
+  {
+    "year": 2017,
+    "title": "The Transformer",
+    "description": "The paper 'Attention Is All You Need' introduces the Transformer architecture that modern LLMs are built on."
+  },
+  {
+    "year": 2022,
+    "title": "ChatGPT goes public",
+    "description": "OpenAI releases ChatGPT and conversational AI reaches a mass audience almost overnight."
+  }
+]

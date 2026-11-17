@@ -1,0 +1,19 @@
+{
+  "name": "git-101",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hands-on Git training course built around a tiny AI primer website.",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve site",
+    "test": "node scripts/check-site.js",
+    "practice:setup": "node scripts/setup-practice-branches.js",
+    "practice:list": "node scripts/setup-practice-branches.js --list"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

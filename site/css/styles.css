@@ -1,0 +1,173 @@
+/* AI 101 stylesheet
+   Change the variables below and refresh the browser to see the difference. */
+
+:root {
+  --accent: #6c4cf5;
+  --accent-soft: #ece8fe;
+  --text: #1f2330;
+  --muted: #5b6275;
+  --bg: #f6f7fb;
+  --card-bg: #ffffff;
+  --radius: 12px;
+  --max-width: 760px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+}
+
+.site-header {
+  background: var(--accent);
+  color: #fff;
+  padding: 1rem 1.5rem 3rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+.nav .brand {
+  font-weight: 700;
+  margin-right: auto;
+  opacity: 1;
+}
+
+.hero {
+  max-width: var(--max-width);
+  margin: 2rem auto 0;
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.25rem;
+}
+
+.tagline {
+  margin: 0;
+  font-size: 1.15rem;
+  opacity: 0.9;
+}
+
+.content {
+  max-width: var(--max-width);
+  margin: -1.5rem auto 2rem;
+  padding: 0 1rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.note {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--accent-soft);
+}
+
+.timeline .year {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.timeline h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.timeline p {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+}
+
+.search-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.search {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #ccd0dc;
+  border-radius: 8px;
+  font: inherit;
+  margin-bottom: 1rem;
+}
+
+.glossary dt {
+  font-weight: 700;
+  color: var(--accent);
+  margin-top: 1rem;
+}
+
+.glossary dd {
+  margin: 0.25rem 0 0;
+}
+
+.loading,
+.empty {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.error {
+  color: #b42318;
+  font-weight: 600;
+}
+
+.site-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 1rem 1rem 2rem;
+}
